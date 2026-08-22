@@ -1,0 +1,54 @@
+{
+  "name": "bank-of-algeria-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official Bank of Algeria (Algeria) daily exchange rates — 17 currencies vs DZD, history since 2000. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bda",
+    "bank",
+    "of",
+    "algeria",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "dzd",
+    "central-bank",
+    "official-rates",
+    "algeria",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bda/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/bank-of-algeria-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/bank-of-algeria-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
