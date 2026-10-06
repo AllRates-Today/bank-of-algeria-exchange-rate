@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'DZD', { apiKey: 'art_live_...' });
 {
   bank: 'bda',
   name: 'Bank of Algeria',
-  rate_date: '2026-09-25',   // Bank of Algeria's own publication date
+  rate_date: '2026-10-06',   // Bank of Algeria's own publication date
   source: 'USD',
   target: 'DZD',
-  rate: 133.6547,
+  rate: 134.4293,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bda',
   name: 'Bank of Algeria',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "DZD", "type": "reference", "value": 133.6547 },
+    { "base": "USD", "quote": "DZD", "type": "reference", "value": 134.4293 },
     // … the rest of the published table (17 currencies vs DZD)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bank-of-algeria-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'DZD', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'DZD', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'DZD',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 133.6547, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 134.4293, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
