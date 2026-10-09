@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/bank-of-algeria-exchange-rate.svg)](https://github.com/AllRates-Today/bank-of-algeria-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/bank-of-algeria-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/DZD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbda%3Fsource%3DUSD%26target%3DDZD&query=%24.rate&label=USD%2FDZD%20published%20by%20Bank%20of%20Algeria&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bda/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbda%3Fsource%3DUSD%26target%3DDZD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bda/)
 
 **Official Bank of Algeria (Algeria) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of Algeria itself prints, every business day.**
 
@@ -32,6 +34,37 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of Algeria table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of Algeria — 18 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | DZD | reference | 36.5987 |
+| CAD | DZD | reference | 94.379 |
+| CHF | DZD | reference | 161.5439 |
+| CNY | DZD | reference | 20.0504 |
+| DKK | DZD | reference | 20.1215 |
+| EUR | DZD | reference | 150.3989 |
+| GBP | DZD | reference | 177.5926 |
+| JPY | DZD | reference | 0.849981 |
+| KWD | DZD | reference | 436.2444 |
+| LYD | DZD | reference | 20.926 |
+| MAD | DZD | reference | 13.4842 |
+| MRU | DZD | reference | 3.3608 |
+| NOK | DZD | reference | 14.0251 |
+| SAR | DZD | reference | 35.8076 |
+| SEK | DZD | reference | 13.4161 |
+| TND | DZD | reference | 44.9107 |
+| USD | DZD | reference | 134.4287 |
+| XDR | DZD | reference | 181.7711 |
+
+Source: [Official rates published by BDA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bda/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
