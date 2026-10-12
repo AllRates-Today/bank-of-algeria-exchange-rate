@@ -40,28 +40,28 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Bank of Algeria table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Bank of Algeria — 18 rates. Updated 2026-10-09.
+Published **2026-10-12** by Bank of Algeria — 18 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 36.5981 |
-| CAD | DZD | reference | 94.5023 |
-| CHF | DZD | reference | 161.9282 |
-| CNY | DZD | reference | 20.084 |
-| DKK | DZD | reference | 20.1892 |
-| EUR | DZD | reference | 150.9119 |
-| GBP | DZD | reference | 177.9753 |
-| JPY | DZD | reference | 0.848989 |
-| KWD | DZD | reference | 436.2314 |
-| LYD | DZD | reference | 20.9101 |
-| MAD | DZD | reference | 13.5147 |
+| AED | DZD | reference | 36.598 |
+| CAD | DZD | reference | 94.4436 |
+| CHF | DZD | reference | 161.7548 |
+| CNY | DZD | reference | 20.0872 |
+| DKK | DZD | reference | 20.154 |
+| EUR | DZD | reference | 150.6583 |
+| GBP | DZD | reference | 177.7891 |
+| JPY | DZD | reference | 0.849295 |
+| KWD | DZD | reference | 436.2366 |
+| LYD | DZD | reference | 20.9103 |
+| MAD | DZD | reference | 13.5148 |
 | MRU | DZD | reference | 3.3607 |
-| NOK | DZD | reference | 14.0403 |
-| SAR | DZD | reference | 35.8056 |
-| SEK | DZD | reference | 13.5057 |
-| TND | DZD | reference | 44.9574 |
-| USD | DZD | reference | 134.4247 |
-| XDR | DZD | reference | 181.7119 |
+| NOK | DZD | reference | 14.0446 |
+| SAR | DZD | reference | 35.806 |
+| SEK | DZD | reference | 13.4801 |
+| TND | DZD | reference | 45.0407 |
+| USD | DZD | reference | 134.4263 |
+| XDR | DZD | reference | 181.7141 |
 
 Source: [Official rates published by BDA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bda/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
