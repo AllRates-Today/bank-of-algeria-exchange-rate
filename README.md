@@ -42,28 +42,28 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by Bank of Algeria — 18 rates. Updated 2026-10-12.
+Published **2026-10-13** by Bank of Algeria — 18 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 36.598 |
-| CAD | DZD | reference | 94.4436 |
-| CHF | DZD | reference | 161.7548 |
-| CNY | DZD | reference | 20.0872 |
-| DKK | DZD | reference | 20.154 |
-| EUR | DZD | reference | 150.6583 |
-| GBP | DZD | reference | 177.7891 |
-| JPY | DZD | reference | 0.849295 |
-| KWD | DZD | reference | 436.2366 |
-| LYD | DZD | reference | 20.9103 |
-| MAD | DZD | reference | 13.5148 |
-| MRU | DZD | reference | 3.3607 |
-| NOK | DZD | reference | 14.0446 |
-| SAR | DZD | reference | 35.806 |
-| SEK | DZD | reference | 13.4801 |
-| TND | DZD | reference | 45.0407 |
-| USD | DZD | reference | 134.4263 |
-| XDR | DZD | reference | 181.7141 |
+| AED | DZD | reference | 36.6013 |
+| CAD | DZD | reference | 94.2271 |
+| CHF | DZD | reference | 161.2439 |
+| CNY | DZD | reference | 20.0856 |
+| DKK | DZD | reference | 20.0967 |
+| EUR | DZD | reference | 150.211 |
+| GBP | DZD | reference | 177.7691 |
+| JPY | DZD | reference | 0.847224 |
+| KWD | DZD | reference | 436.2454 |
+| LYD | DZD | reference | 20.9213 |
+| MAD | DZD | reference | 13.6478 |
+| MRU | DZD | reference | 3.3608 |
+| NOK | DZD | reference | 14.0666 |
+| SAR | DZD | reference | 35.7933 |
+| SEK | DZD | reference | 13.4091 |
+| TND | DZD | reference | 44.8942 |
+| USD | DZD | reference | 134.429 |
+| XDR | DZD | reference | 181.9194 |
 
 Source: [Official rates published by BDA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bda/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
