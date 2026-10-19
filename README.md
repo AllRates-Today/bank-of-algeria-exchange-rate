@@ -33,37 +33,40 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/bda').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Bank of Algeria table](https://allratestoday.com/api/open/central-bank/bda/table.svg)](https://allratestoday.com/central-bank-rates-api/bda/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Bank of Algeria — 18 rates. Updated 2026-10-17.
+<details>
+<summary>Table as text: published 2026-10-19 by Bank of Algeria — 18 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 36.598 |
-| CAD | DZD | reference | 94.8969 |
-| CHF | DZD | reference | 163.0595 |
-| CNY | DZD | reference | 20.1029 |
-| DKK | DZD | reference | 20.2107 |
-| EUR | DZD | reference | 151.0816 |
-| GBP | DZD | reference | 179.0082 |
-| JPY | DZD | reference | 0.851014 |
-| KWD | DZD | reference | 436.2363 |
-| LYD | DZD | reference | 20.9251 |
-| MAD | DZD | reference | 13.698 |
-| MRU | DZD | reference | 3.3607 |
-| NOK | DZD | reference | 14.2307 |
-| SAR | DZD | reference | 35.8198 |
-| SEK | DZD | reference | 13.5656 |
-| TND | DZD | reference | 44.7662 |
-| USD | DZD | reference | 134.4262 |
-| XDR | DZD | reference | 182.0097 |
+| AED | DZD | reference | 36.5975 |
+| CAD | DZD | reference | 94.9794 |
+| CHF | DZD | reference | 163.4042 |
+| CNY | DZD | reference | 20.1046 |
+| DKK | DZD | reference | 20.2597 |
+| EUR | DZD | reference | 151.409 |
+| GBP | DZD | reference | 179.3761 |
+| JPY | DZD | reference | 0.851434 |
+| KWD | DZD | reference | 436.2304 |
+| LYD | DZD | reference | 20.9248 |
+| MAD | DZD | reference | 13.6978 |
+| MRU | DZD | reference | 3.3606 |
+| NOK | DZD | reference | 14.2521 |
+| SAR | DZD | reference | 35.8208 |
+| SEK | DZD | reference | 13.5981 |
+| TND | DZD | reference | 45.0824 |
+| USD | DZD | reference | 134.4244 |
+| XDR | DZD | reference | 182.0073 |
+
+</details>
 
 Source: [Official rates published by BDA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bda/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -336,7 +339,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/bank-of-algeria-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/bank-of-algeria-exchange-rate)
 
 ## 📜 License
