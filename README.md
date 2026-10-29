@@ -47,28 +47,28 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Bank of Algeria — 18 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Bank of Algeria — 18 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 36.7921 |
-| CAD | DZD | reference | 96.2899 |
-| CHF | DZD | reference | 162.9605 |
-| CNY | DZD | reference | 20.2651 |
-| DKK | DZD | reference | 20.1486 |
-| EUR | DZD | reference | 150.5966 |
-| GBP | DZD | reference | 179.9903 |
-| JPY | DZD | reference | 0.855859 |
-| KWD | DZD | reference | 438.4836 |
-| LYD | DZD | reference | 21.0308 |
-| MAD | DZD | reference | 13.7597 |
-| MRU | DZD | reference | 3.378 |
-| NOK | DZD | reference | 14.502 |
-| SAR | DZD | reference | 35.9971 |
-| SEK | DZD | reference | 13.605 |
-| TND | DZD | reference | 45.1231 |
-| USD | DZD | reference | 135.1187 |
-| XDR | DZD | reference | 182.7582 |
+| AED | DZD | reference | 36.8112 |
+| CAD | DZD | reference | 96.2982 |
+| CHF | DZD | reference | 162.8712 |
+| CNY | DZD | reference | 20.283 |
+| DKK | DZD | reference | 20.1451 |
+| EUR | DZD | reference | 150.4995 |
+| GBP | DZD | reference | 179.7614 |
+| JPY | DZD | reference | 0.855122 |
+| KWD | DZD | reference | 438.4871 |
+| LYD | DZD | reference | 21.0116 |
+| MAD | DZD | reference | 13.7239 |
+| MRU | DZD | reference | 3.3803 |
+| NOK | DZD | reference | 14.545 |
+| SAR | DZD | reference | 36.0314 |
+| SEK | DZD | reference | 13.6139 |
+| TND | DZD | reference | 45.0654 |
+| USD | DZD | reference | 135.2075 |
+| XDR | DZD | reference | 182.7701 |
 
 </details>
 
@@ -233,6 +233,7 @@ The Bank of Algeria publishes daily interbank exchange-rate fixings for the Alge
 
 - Publisher's own page: [Taux de change journalier](https://www.bank-of-algeria.dz/taux-de-change-journalier/) · [www.bank-of-algeria.dz](https://www.bank-of-algeria.dz)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Bank of Algeria rates page](https://allratestoday.com/central-bank-rates-api/bda/)
+- In the API: usually by **10:20 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
