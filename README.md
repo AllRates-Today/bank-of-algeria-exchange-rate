@@ -24,51 +24,36 @@
 
 Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
-## ⚡ Try it without a key
-
-The latest Bank of Algeria table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
-
-```bash
-curl "https://allratestoday.com/api/open/central-bank/bda?source=USD&target=DZD"
-```
-
-```js
-const r = await fetch('https://allratestoday.com/api/open/central-bank/bda').then((x) => x.json());
-console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
-```
-
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
-
 ## 📈 Latest published table
 
 [![Latest Bank of Algeria table](https://allratestoday.com/api/open/central-bank/bda/table.svg)](https://allratestoday.com/central-bank-rates-api/bda/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-29 by Bank of Algeria — 18 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-30 by Bank of Algeria — 18 rates. Updated 2026-10-30.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 36.8112 |
-| CAD | DZD | reference | 96.2982 |
-| CHF | DZD | reference | 162.8712 |
-| CNY | DZD | reference | 20.283 |
-| DKK | DZD | reference | 20.1451 |
-| EUR | DZD | reference | 150.4995 |
-| GBP | DZD | reference | 179.7614 |
-| JPY | DZD | reference | 0.855122 |
-| KWD | DZD | reference | 438.4871 |
-| LYD | DZD | reference | 21.0116 |
-| MAD | DZD | reference | 13.7239 |
-| MRU | DZD | reference | 3.3803 |
-| NOK | DZD | reference | 14.545 |
-| SAR | DZD | reference | 36.0314 |
-| SEK | DZD | reference | 13.6139 |
-| TND | DZD | reference | 45.0654 |
-| USD | DZD | reference | 135.2075 |
-| XDR | DZD | reference | 182.7701 |
+| AED | DZD | reference | 36.893 |
+| CAD | DZD | reference | 97.0548 |
+| CHF | DZD | reference | 164.9518 |
+| CNY | DZD | reference | 20.3591 |
+| DKK | DZD | reference | 20.2981 |
+| EUR | DZD | reference | 151.7011 |
+| GBP | DZD | reference | 181.6825 |
+| JPY | DZD | reference | 0.860122 |
+| KWD | DZD | reference | 439.6039 |
+| LYD | DZD | reference | 21.0732 |
+| MAD | DZD | reference | 13.7721 |
+| MRU | DZD | reference | 3.3878 |
+| NOK | DZD | reference | 14.6993 |
+| SAR | DZD | reference | 36.1085 |
+| SEK | DZD | reference | 13.7957 |
+| TND | DZD | reference | 45.1821 |
+| USD | DZD | reference | 135.5079 |
+| XDR | DZD | reference | 183.2846 |
 
 </details>
 
