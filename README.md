@@ -32,28 +32,28 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-18 by Bank of Algeria — 18 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-19 by Bank of Algeria — 18 rates. Updated 2026-11-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | DZD | reference | 37.2717 |
-| CAD | DZD | reference | 95.7583 |
-| CHF | DZD | reference | 162.8511 |
-| CNY | DZD | reference | 20.5366 |
-| DKK | DZD | reference | 20.1301 |
-| EUR | DZD | reference | 150.6046 |
-| GBP | DZD | reference | 180.6675 |
-| JPY | DZD | reference | 0.859282 |
-| KWD | DZD | reference | 443.2599 |
-| LYD | DZD | reference | 21.1842 |
-| MAD | DZD | reference | 13.7399 |
-| MRU | DZD | reference | 3.426 |
-| NOK | DZD | reference | 14.227 |
-| SAR | DZD | reference | 36.4904 |
-| SEK | DZD | reference | 13.5185 |
-| TND | DZD | reference | 45.1989 |
-| USD | DZD | reference | 136.9008 |
-| XDR | DZD | reference | 184.1282 |
+| AED | DZD | reference | 37.2875 |
+| CAD | DZD | reference | 95.6758 |
+| CHF | DZD | reference | 162.402 |
+| CNY | DZD | reference | 20.5356 |
+| DKK | DZD | reference | 20.0956 |
+| EUR | DZD | reference | 150.4484 |
+| GBP | DZD | reference | 180.2389 |
+| JPY | DZD | reference | 0.85959 |
+| KWD | DZD | reference | 443.2611 |
+| LYD | DZD | reference | 21.1747 |
+| MAD | DZD | reference | 13.7358 |
+| MRU | DZD | reference | 3.4271 |
+| NOK | DZD | reference | 14.1364 |
+| SAR | DZD | reference | 36.5062 |
+| SEK | DZD | reference | 13.4674 |
+| TND | DZD | reference | 45.1884 |
+| USD | DZD | reference | 136.9455 |
+| XDR | DZD | reference | 183.9966 |
 
 </details>
 
